@@ -1,38 +1,38 @@
-# Proyecto Sprint 7 - Exploración de datos de vehículos
+# Dashboard interactivo de análisis de vehículos
 
-Este proyecto analiza un dataset de anuncios de vehículos usados en Estados Unidos.
+## Descripción del proyecto
+Aplicación interactiva desarrollada con Streamlit para analizar datos del mercado de vehículos, permitiendo explorar precios, condiciones y características de los autos.
 
-## Dataset
-El dataset contiene información sobre vehículos en venta, incluyendo:
+## Objetivo
+Facilitar la exploración de datos de vehículos mediante visualizaciones dinámicas e interactivas.
 
-- precio
-- año del modelo
-- kilometraje
-- tipo de vehículo
-- combustible
-- transmisión
+## Tecnologías utilizadas
+- Python
+- Pandas
+- Plotly / visualización
+- Streamlit
 
-## Análisis exploratorio (EDA)
+## Funcionalidades
+- Filtro dinámico de datos
+- Visualización de histogramas
+- Gráficos de dispersión (scatter plots)
+- Exploración interactiva del dataset
 
-Se realizó una limpieza mínima del dataset eliminando filas con valores faltantes en:
+## Resultados
+- Permite identificar tendencias en precios de vehículos
+- Facilita la comparación entre condiciones y características
+- Mejora la comprensión del mercado automotriz
 
-- model_year
-- odometer
+## Conclusiones
+Las herramientas interactivas permiten un análisis más eficiente y comprensible de grandes volúmenes de datos.
 
-Posteriormente se analizaron:
+## Aprendizajes
+- Desarrollo de aplicaciones con Streamlit
+- Creación de visualizaciones interactivas
+- Transformación de datos para análisis dinámico
 
-- distribución del kilometraje
-- relación entre kilometraje y precio
-
-## Aplicación web
-
-Se creó una aplicación interactiva con **Streamlit** que permite visualizar:
-
-- histograma del kilometraje
-- gráfico de dispersión entre precio y kilometraje
-
-Los gráficos pueden activarse usando checkboxes.
-
-## Enlace a la aplicación
-
+## Demo
 https://proyecto-sprint7-vehicles.onrender.com
+
+## Link proyecto
+https://github.com/Zoomvraztank/proyecto_sprint7_vehicles
